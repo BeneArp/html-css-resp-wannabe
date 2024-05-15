@@ -135,3 +135,18 @@ img {
     }
     
  }
+
+
+ /* mobile */
+ @media screen and (max-width: 480px) {
+
+    .row{
+        display: block;
+    }
+
+    .row .col{
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+ }
