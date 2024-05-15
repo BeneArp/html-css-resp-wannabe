@@ -130,11 +130,10 @@ img {
  @media screen and (min-width: 768px) {
 
     .container{
-        width: 45%;
+        max-width: 70%;
     }
-    
- }
 
+ }
 
  /* tablet */
  @media screen and (max-width: 768px) {
@@ -142,7 +141,7 @@ img {
     .container{
         width: 100%;
     }
-
+    
  }
 
 
@@ -154,7 +153,7 @@ img {
     }
 
     .row .col{
-        margin-bottom: 80px;
+        margin-bottom: 60px;
         width: 100%;
     }
 
